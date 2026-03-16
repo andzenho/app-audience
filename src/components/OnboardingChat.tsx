@@ -216,8 +216,8 @@ export function OnboardingChat({
               className="flex-1 px-4 py-3 rounded-xl resize-none focus:outline-none focus:ring-2 text-[15px]"
               style={{
                 background: "var(--muted-bg)",
-                focusRingColor: "var(--primary)",
-              }}
+                "--tw-ring-color": "var(--primary)",
+              } as React.CSSProperties}
               disabled={isTyping}
             />
             <button
